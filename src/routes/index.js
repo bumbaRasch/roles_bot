@@ -1,6 +1,6 @@
 // src/routes/index.js
 import { Router } from "express";
-import botRouter from "./botRouter.js";
+import botRouter from "./bot.router.js";
 
 const router = new Router();
 
