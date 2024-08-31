@@ -46,3 +46,22 @@ The activity diagram illustrates the step-by-step workflow of how the bot proces
 8. **End Interaction**: Concludes interaction based on user feedback.
 
 ![Activity Diagram](docs/diagrams/activity_diagram.jpg)
+
+## Contributing
+
+We welcome contributions to enhance the Role and Permission Recommendation Bot. If you would like to contribute, please follow these steps:
+
+1. **Fork the Repository**: Create a fork of the repository on GitHub.
+2. **Create a Branch**: Create a new branch for your changes. Use a descriptive name for your branch.
+3. **Make Changes**: Implement your changes and ensure they are thoroughly tested.
+4. **Submit a Pull Request**: Submit a pull request with a clear and detailed description of your changes. Make sure your changes adhere to the project's coding standards and guidelines.
+
+We appreciate your efforts and contributions to improve the project!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please contact [info@dimitripisarev.com](mailto:info@dimitripisarev.com).
