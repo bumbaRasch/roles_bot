@@ -1,0 +1,203 @@
+{
+    "roles": [
+      {
+        "role_name": "Koch",
+        "permissions": [
+          {"permission":"Kochen","description":"Zubereitung von Speisen"},
+          {"permission":"Braten","description":"Braten von Lebensmitteln"},
+          {"permission":"Reinigen","description":"Reinigung von Küchenutensilien"},
+          {"permission":"Waschen","description":"Waschen von Gemüse und Obst"},
+          {"permission":"Einkaufen","description":"Einkauf von Zutaten"},
+          {"permission":"Planung","description":"Planung der Mahlzeiten"},
+          {"permission":"Anrichten","description":"Anrichten der Speisen für den Service"},
+          {"permission":"Lagerverwaltung","description":"Verwaltung der Lagerbestände"},
+          {"permission":"Qualitätskontrolle","description":"Überprüfung der Qualität der Zutaten"},
+          {"permission":"Menüplanung","description":"Planung der Menüs"},
+          {"permission":"Gerätewartung","description":"Wartung der Küchengeräte"},
+          {"permission":"Speisevorbereitung","description":"Vorbereitung der Zutaten für die Speisen"},
+          {"permission":"Küchenorganisation","description":"Organisation der Küche"},
+          {"permission":"Rezeptentwicklung","description":"Entwicklung neuer Rezepte"},
+          {"permission":"Sicherheitsüberprüfung","description":"Überprüfung der Sicherheitsvorschriften in der Küche"}
+        ]
+      },
+      {
+        "role_name": "Büroangestellter",
+        "permissions": [
+          {"permission":"Dokumentation","description":"Erstellung und Pflege von Dokumenten"},
+          {"permission":"Telefonieren","description":"Beantwortung und Durchführung von Telefonaten"},
+          {"permission":"E-Mail-Verwaltung","description":"Verwaltung der eingehenden und ausgehenden E-Mails"},
+          {"permission":"Datenbankpflege","description":"Pflege und Aktualisierung von Datenbanken"},
+          {"permission":"Terminplanung","description":"Planung und Koordination von Terminen"},
+          {"permission":"Büroorganisation","description":"Organisation und Verwaltung des Büros"},
+          {"permission":"Postbearbeitung","description":"Bearbeitung und Weiterleitung der Post"},
+          {"permission":"Archivierung","description":"Archivierung von Dokumenten"},
+          {"permission":"Rechnungsprüfung","description":"Überprüfung und Bearbeitung von Rechnungen"},
+          {"permission":"Fahrtkostenabrechnung","description":"Abrechnung der Fahrtkosten"},
+          {"permission":"Vertragsverwaltung","description":"Verwaltung von Verträgen"},
+          {"permission":"Besprechungsorganisation","description":"Organisation von Besprechungen"},
+          {"permission":"Materialbeschaffung","description":"Beschaffung von Bürobedarf"},
+          {"permission":"Urlaubsverwaltung","description":"Verwaltung der Urlaubsanträge"},
+          {"permission":"Datenanalyse","description":"Analyse von Büro-Daten"}
+        ]
+      },
+      {
+        "role_name": "IT-Support",
+        "permissions": [
+          {"permission":"Fehlerbehebung","description":"Behebung technischer Probleme"},
+          {"permission":"Systemwartung","description":"Wartung und Aktualisierung von IT-Systemen"},
+          {"permission":"Benutzerverwaltung","description":"Verwaltung von Benutzerkonten und Zugriffsrechten"},
+          {"permission":"Softwareinstallation","description":"Installation und Konfiguration von Software"},
+          {"permission":"Netzwerkmanagement","description":"Verwaltung des Unternehmensnetzwerks"},
+          {"permission":"Backup","description":"Durchführung von Datensicherungen"},
+          {"permission":"Sicherheitsüberprüfung","description":"Überprüfung der IT-Sicherheit"},
+          {"permission":"Hardware-Reparatur","description":"Reparatur von Hardwarekomponenten"},
+          {"permission":"Virenschutz","description":"Installation und Wartung von Virenschutzsoftware"},
+          {"permission":"Systemkonfiguration","description":"Konfiguration von IT-Systemen"},
+          {"permission":"Fehlerdiagnose","description":"Diagnose technischer Fehler"},
+          {"permission":"IT-Schulungen","description":"Durchführung von IT-Schulungen"},
+          {"permission":"Benutzersupport","description":"Unterstützung von Benutzern bei IT-Problemen"},
+          {"permission":"Netzwerksicherheit","description":"Sicherung des Unternehmensnetzwerks"},
+          {"permission":"Zugriffsrechte","description":"Verwaltung der Zugriffsrechte"}
+        ]
+      },
+      {
+        "role_name": "Projektmanager",
+        "permissions": [
+          {"permission":"Projektplanung","description":"Planung und Organisation von Projekten"},
+          {"permission":"Teamleitung","description":"Leitung und Koordination des Projektteams"},
+          {"permission":"Budgetverwaltung","description":"Verwaltung des Projektbudgets"},
+          {"permission":"Berichterstattung","description":"Erstellung von Fortschrittsberichten"},
+          {"permission":"Risikomanagement","description":"Identifikation und Management von Projektrisiken"},
+          {"permission":"Stakeholder-Kommunikation","description":"Kommunikation mit Projekt-Stakeholdern"},
+          {"permission":"Projektabschluss","description":"Abschluss und Evaluierung von Projekten"},
+          {"permission":"Ressourcenplanung","description":"Planung der Ressourcen für das Projekt"},
+          {"permission":"Projektmeilensteine","description":"Festlegung und Überwachung von Projektmeilensteinen"},
+          {"permission":"Projektanpassung","description":"Anpassung des Projekts an neue Anforderungen"},
+          {"permission":"Budgetkontrolle","description":"Überwachung der Projektkosten"},
+          {"permission":"Projektverhandlungen","description":"Verhandlungen über Projektvereinbarungen"},
+          {"permission":"Projektstatusberichte","description":"Erstellung von Statusberichten"},
+          {"permission":"Kundenbetreuung","description":"Betreuung der Kunden während des Projekts"},
+          {"permission":"Qualitätssicherung","description":"Sicherung der Projektqualität"}
+        ]
+      },
+      {
+        "role_name": "Personalmanager",
+        "permissions": [
+          {"permission":"Rekrutierung","description":"Rekrutierung neuer Mitarbeiter"},
+          {"permission":"Mitarbeiterverwaltung","description":"Verwaltung von Mitarbeiterdaten"},
+          {"permission":"Gehaltsabrechnung","description":"Erstellung und Verwaltung der Gehaltsabrechnungen"},
+          {"permission":"Leistungsbewertung","description":"Durchführung von Leistungsbewertungen"},
+          {"permission":"Schulungsorganisation","description":"Organisation von Schulungen und Weiterbildungen"},
+          {"permission":"Personalentwicklung","description":"Entwicklung und Förderung von Mitarbeitern"},
+          {"permission":"Rechtsfragen","description":"Beratung bei arbeitsrechtlichen Fragen"},
+          {"permission":"Urlaubsmanagement","description":"Verwaltung von Urlaubsanträgen"},
+          {"permission":"Mitarbeitergespräche","description":"Führung von Mitarbeitergesprächen"},
+          {"permission":"Einarbeitung","description":"Einarbeitung neuer Mitarbeiter"},
+          {"permission":"Personalplanung","description":"Planung des Personalbedarfs"},
+          {"permission":"Mitarbeiterbindung","description":"Maßnahmen zur Mitarbeiterbindung"},
+          {"permission":"Arbeitsverträge","description":"Erstellung und Verwaltung von Arbeitsverträgen"},
+          {"permission":"Personalstatistiken","description":"Erstellung von Personalstatistiken"},
+          {"permission":"Gesundheitsmanagement","description":"Gesundheitsmanagement für Mitarbeiter"}
+        ]
+      },
+      {
+        "role_name": "Finanzanalyst",
+        "permissions": [
+          {"permission":"Finanzanalyse","description":"Durchführung von Finanzanalysen"},
+          {"permission":"Budgetplanung","description":"Erstellung und Überwachung des Budgets"},
+          {"permission":"Investitionsbewertung","description":"Bewertung von Investitionsmöglichkeiten"},
+          {"permission":"Berichterstattung","description":"Erstellung von Finanzberichten"},
+          {"permission":"Kostenanalyse","description":"Analyse von Kosten und Ausgaben"},
+          {"permission":"Ertragsprognose","description":"Prognose der zukünftigen Erträge"},
+          {"permission":"Finanzplanung","description":"Langfristige Finanzplanung"},
+          {"permission":"Risikobewertung","description":"Bewertung finanzieller Risiken"},
+          {"permission":"Finanzkennzahlen","description":"Analyse und Interpretation von Finanzkennzahlen"},
+          {"permission":"Kostenmanagement","description":"Management von Kosten und Budgets"},
+          {"permission":"Buchhaltung","description":"Führung der Buchhaltung"},
+          {"permission":"Steuerplanung","description":"Planung der Steuerstrategie"},
+          {"permission":"Cashflow-Management","description":"Management des Cashflows"},
+          {"permission":"Anlagenbewertung","description":"Bewertung von Vermögenswerten"},
+          {"permission":"Finanzstrategien","description":"Entwicklung von Finanzstrategien"}
+        ]
+      },
+      {
+        "role_name": "Verkaufsleiter",
+        "permissions": [
+          {"permission":"Vertrieb","description":"Leitung des Vertriebsteams"},
+          {"permission":"Kundenakquise","description":"Akquisition neuer Kunden"},
+          {"permission":"Vertragsverhandlung","description":"Verhandlung und Abschluss von Verträgen"},
+          {"permission":"Marktanalyse","description":"Analyse des Marktes und der Konkurrenz"},
+          {"permission":"Verkaufsstrategie","description":"Entwicklung von Verkaufsstrategien"},
+          {"permission":"Umsatzüberwachung","description":"Überwachung der Umsatzzahlen"},
+          {"permission":"Kundenbetreuung","description":"Betreuung von Schlüsselkunden"},
+          {"permission":"Verkaufsprognosen","description":"Erstellung von Verkaufsprognosen"},
+          {"permission":"Verkaufsförderung","description":"Planung und Durchführung von Verkaufsförderungsmaßnahmen"},
+          {"permission":"Wettbewerbsanalyse","description":"Analyse der Wettbewerbslandschaft"},
+          {"permission":"Vertriebsschulungen","description":"Schulung des Vertriebsteams"},
+          {"permission":"Kundenfeedback","description":"Einsammlung und Auswertung von Kundenfeedback"},
+          {"permission":"Produktpräsentationen","description":"Durchführung von Produktpräsentationen"},
+          {"permission":"Preisgestaltung","description":"Festlegung der Preise für Produkte"}
+        ]
+      },
+      {
+        "role_name": "Marketingmanager",
+        "permissions": [
+          {"permission":"Kampagnenmanagement","description":"Planung und Durchführung von Marketingkampagnen"},
+          {"permission":"Marktforschung","description":"Durchführung von Marktforschung"},
+          {"permission":"Content-Erstellung","description":"Erstellung von Marketinginhalten"},
+          {"permission":"Analyse","description":"Analyse der Marketingaktivitäten und deren Ergebnisse"},
+          {"permission":"Social-Media-Management","description":"Verwaltung von Social-Media-Kanälen"},
+          {"permission":"Werbung","description":"Planung und Durchführung von Werbemaßnahmen"},
+          {"permission":"Brand-Management","description":"Management der Markenidentität"},
+          {"permission":"Kundenbindung","description":"Maßnahmen zur Kundenbindung"},
+          {"permission":"E-Mail-Marketing","description":"Durchführung von E-Mail-Marketing-Kampagnen"},
+          {"permission":"Event-Management","description":"Planung und Durchführung von Events"},
+          {"permission":"Online-Werbung","description":"Verwaltung von Online-Werbung"},
+          {"permission":"Markenstrategie","description":"Entwicklung der Markenstrategie"},
+          {"permission":"SEO","description":"Suchmaschinenoptimierung"},
+          {"permission":"Marketingleitfäden","description":"Erstellung von Marketingleitfäden"}
+        ]
+      },
+      {
+        "role_name": "HR-Manager",
+        "permissions": [
+          {"permission":"Mitarbeiterrekrutierung","description":"Rekrutierung neuer Mitarbeiter"},
+          {"permission":"Personaladministration","description":"Verwaltung von Personalakten"},
+          {"permission":"Mitarbeiterentwicklung","description":"Entwicklung und Durchführung von Weiterbildungsprogrammen"},
+          {"permission":"Arbeitsrecht","description":"Beratung in arbeitsrechtlichen Fragen"},
+          {"permission":"Onboarding","description":"Einarbeitung neuer Mitarbeiter"},
+          {"permission":"Mitarbeitergespräche","description":"Durchführung von Mitarbeitergesprächen"},
+          {"permission":"Urlaubsplanung","description":"Planung und Verwaltung von Urlaubstagen"},
+          {"permission":"Leistungsbeurteilung","description":"Bewertung der Mitarbeiterleistung"},
+          {"permission":"Personalplanung","description":"Planung des Personalbedarfs"},
+          {"permission":"Betriebsrat","description":"Zusammenarbeit mit dem Betriebsrat"},
+          {"permission":"Recruiting-Strategie","description":"Entwicklung von Recruiting-Strategien"},
+          {"permission":"Mitarbeiterbindung","description":"Maßnahmen zur Mitarbeiterbindung"},
+          {"permission":"Arbeitsverträge","description":"Erstellung und Verwaltung von Arbeitsverträgen"},
+          {"permission":"Vergütungsmanagement","description":"Verwaltung der Vergütungssysteme"},
+          {"permission":"Personalreporting","description":"Erstellung von Personalberichten"}
+        ]
+      },
+      {
+        "role_name": "Einkaufsleiter",
+        "permissions": [
+          {"permission":"Lieferantenmanagement","description":"Verwaltung der Lieferantenbeziehungen"},
+          {"permission":"Einkaufsverhandlungen","description":"Führen von Einkaufsverhandlungen"},
+          {"permission":"Bestellwesen","description":"Verwaltung des Bestellwesens"},
+          {"permission":"Kostenkontrolle","description":"Überwachung der Einkaufskosten"},
+          {"permission":"Lieferantenbewertung","description":"Bewertung der Lieferanten"},
+          {"permission":"Einkaufsstrategie","description":"Entwicklung der Einkaufsstrategie"},
+          {"permission":"Lagerbestandskontrolle","description":"Kontrolle des Lagerbestands"},
+          {"permission":"Preisverhandlungen","description":"Verhandlung der Preise mit Lieferanten"},
+          {"permission":"Einkaufsplanung","description":"Planung der Einkaufsbedarfe"},
+          {"permission":"Vertragsmanagement","description":"Management von Lieferverträgen"},
+          {"permission":"Bestellabwicklung","description":"Abwicklung der Bestellungen"},
+          {"permission":"Lieferterminkontrolle","description":"Überwachung der Liefertermine"},
+          {"permission":"Einkaufsberichte","description":"Erstellung von Einkaufsberichten"},
+          {"permission":"Lieferantenauswahl","description":"Auswahl neuer Lieferanten"},
+          {"permission":"Kostenanalyse","description":"Analyse der Einkaufskosten"}
+        ]
+      }
+    ]
+  }
+  
