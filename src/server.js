@@ -41,9 +41,9 @@ class Server {
 
   /**
    * Get certificate paths based on the environment
-   * @param {string} environment - The current environment (development or production)
-   * @returns {Object} - The paths to the key and certificate files
-   * @throws {Error} - If the environment is invalid
+   * @param {string} environment The current environment (development or production)
+   * @returns {Object} The paths to the key and certificate files
+   * @throws {Error} If the environment is invalid
    */
   getCertPaths(environment) {
     const paths = CERT_PATHS[environment];
@@ -55,8 +55,8 @@ class Server {
 
   /**
    * Load certificates from the file system
-   * @returns {Promise<Object>} - The key and certificate contents
-   * @throws {Error} - If the certificates cannot be loaded
+   * @returns {Promise<Object>} The key and certificate contents
+   * @throws {Error} If the certificates cannot be loaded
    */
   async loadCertificates() {
     const { key: keyPath, cert: certPath } = this.getCertPaths(this.ENVIRONMENT);
@@ -101,7 +101,7 @@ class Server {
 
   /**
    * Check if required environment variables are set
-   * @throws {Error} - If the PORT environment variable is not set
+   * @throws {Error} If the PORT environment variable is not set
    */
   checkEnvVariables() {
     if (!process.env.PORT) {
@@ -111,7 +111,7 @@ class Server {
 
   /**
    * Handle errors by logging and exiting the process
-   * @param {Error} error - The error to handle
+   * @param {Error} error The error to handle
    */
   handleError(error) {
     console.error(error.message);
