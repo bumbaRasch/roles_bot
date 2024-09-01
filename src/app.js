@@ -2,6 +2,7 @@
 import express from 'express';
 import routes from './routes/index.js';
 import cors from 'cors';
+import { configureCompression } from './config/compression.js';
 
 class App {
   constructor() {
@@ -15,6 +16,7 @@ class App {
    */
   middlewares() {
     this.app.use(cors());
+    configureCompression(this.app);
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: true }))
   }
